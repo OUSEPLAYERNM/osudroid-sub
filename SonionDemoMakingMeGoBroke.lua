@@ -2,7 +2,7 @@
 -- VOLT V4 DEMO — runs against your patched library on GitHub
 -- UI-only. No gameplay. Paste locally and execute.
 --=================================================================
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/OUSEPLAYERNM/addada/main/Patched.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/OUSEPLAYERNM/osudroid-sub/refs/heads/main/UiLib.lua"))()
 if not Library.Loaded then Library:Initialize() end
 
 local function notify(title, text, dur, type)
